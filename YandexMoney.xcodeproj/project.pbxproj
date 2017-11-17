@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		801D31651FBC2D1500E4A3E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801D31641FBC2D1500E4A3E4 /* AppDelegate.swift */; };
+		801D316C1FBC2D1500E4A3E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 801D316B1FBC2D1500E4A3E4 /* Assets.xcassets */; };
+		801D316F1FBC2D1500E4A3E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 801D316D1FBC2D1500E4A3E4 /* LaunchScreen.storyboard */; };
+		80CC83651FBEDD18006AEBBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80CC83631FBEDD17006AEBBE /* Main.storyboard */; };
+		80CC83661FBEDD18006AEBBE /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CC83641FBEDD18006AEBBE /* TestViewController.swift */; };
+		F0BB2307AB171D2C5606C74A /* Pods_YandexMoney.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDE4D037DC809CC79B0EEDBE /* Pods_YandexMoney.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3A0EE99DDD0921F5AFDAD1E3 /* Pods-YandexMoney.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YandexMoney.release.xcconfig"; path = "Pods/Target Support Files/Pods-YandexMoney/Pods-YandexMoney.release.xcconfig"; sourceTree = "<group>"; };
+		801D31611FBC2D1500E4A3E4 /* YandexMoney.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YandexMoney.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		801D31641FBC2D1500E4A3E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		801D316B1FBC2D1500E4A3E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		801D316E1FBC2D1500E4A3E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		801D31701FBC2D1500E4A3E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80CC83631FBEDD17006AEBBE /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		80CC83641FBEDD18006AEBBE /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		C77B755CCB7DD150DB8118C9 /* Pods-YandexMoney.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YandexMoney.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YandexMoney/Pods-YandexMoney.debug.xcconfig"; sourceTree = "<group>"; };
+		CDE4D037DC809CC79B0EEDBE /* Pods_YandexMoney.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YandexMoney.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		801D315E1FBC2D1500E4A3E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0BB2307AB171D2C5606C74A /* Pods_YandexMoney.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DEBA7BB9022B16D9E74C34D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C77B755CCB7DD150DB8118C9 /* Pods-YandexMoney.debug.xcconfig */,
+				3A0EE99DDD0921F5AFDAD1E3 /* Pods-YandexMoney.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6337A80180B06AAB31CFE97E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CDE4D037DC809CC79B0EEDBE /* Pods_YandexMoney.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		801D31581FBC2D1500E4A3E4 = {
+			isa = PBXGroup;
+			children = (
+				801D31631FBC2D1500E4A3E4 /* YandexMoney */,
+				801D31621FBC2D1500E4A3E4 /* Products */,
+				1DEBA7BB9022B16D9E74C34D /* Pods */,
+				6337A80180B06AAB31CFE97E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		801D31621FBC2D1500E4A3E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				801D31611FBC2D1500E4A3E4 /* YandexMoney.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		801D31631FBC2D1500E4A3E4 /* YandexMoney */ = {
+			isa = PBXGroup;
+			children = (
+				80CC83641FBEDD18006AEBBE /* TestViewController.swift */,
+				80CC83631FBEDD17006AEBBE /* Main.storyboard */,
+				801D31781FBC2E5700E4A3E4 /* Support */,
+				801D31701FBC2D1500E4A3E4 /* Info.plist */,
+			);
+			path = YandexMoney;
+			sourceTree = "<group>";
+		};
+		801D31781FBC2E5700E4A3E4 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				801D31641FBC2D1500E4A3E4 /* AppDelegate.swift */,
+				801D316B1FBC2D1500E4A3E4 /* Assets.xcassets */,
+				801D316D1FBC2D1500E4A3E4 /* LaunchScreen.storyboard */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		801D31601FBC2D1500E4A3E4 /* YandexMoney */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 801D31731FBC2D1500E4A3E4 /* Build configuration list for PBXNativeTarget "YandexMoney" */;
+			buildPhases = (
+				78FF74D86FA5CB3724645A94 /* [CP] Check Pods Manifest.lock */,
+				801D315D1FBC2D1500E4A3E4 /* Sources */,
+				801D315E1FBC2D1500E4A3E4 /* Frameworks */,
+				801D315F1FBC2D1500E4A3E4 /* Resources */,
+				978EC45D554F20F26C282AC2 /* [CP] Embed Pods Frameworks */,
+				E1C729DA63DF793E3B1F7B9E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YandexMoney;
+			productName = YandexMoney;
+			productReference = 801D31611FBC2D1500E4A3E4 /* YandexMoney.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		801D31591FBC2D1500E4A3E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Анатолий";
+				TargetAttributes = {
+					801D31601FBC2D1500E4A3E4 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 801D315C1FBC2D1500E4A3E4 /* Build configuration list for PBXProject "YandexMoney" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 801D31581FBC2D1500E4A3E4;
+			productRefGroup = 801D31621FBC2D1500E4A3E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				801D31601FBC2D1500E4A3E4 /* YandexMoney */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		801D315F1FBC2D1500E4A3E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80CC83651FBEDD18006AEBBE /* Main.storyboard in Resources */,
+				801D316F1FBC2D1500E4A3E4 /* LaunchScreen.storyboard in Resources */,
+				801D316C1FBC2D1500E4A3E4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		78FF74D86FA5CB3724645A94 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YandexMoney-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		978EC45D554F20F26C282AC2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-YandexMoney/Pods-YandexMoney-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/YandexMoneySDKObjc/YandexMoneySDKObjc.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YandexMoneySDKObjc.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YandexMoney/Pods-YandexMoney-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1C729DA63DF793E3B1F7B9E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YandexMoney/Pods-YandexMoney-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		801D315D1FBC2D1500E4A3E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80CC83661FBEDD18006AEBBE /* TestViewController.swift in Sources */,
+				801D31651FBC2D1500E4A3E4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		801D316D1FBC2D1500E4A3E4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				801D316E1FBC2D1500E4A3E4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		801D31711FBC2D1500E4A3E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		801D31721FBC2D1500E4A3E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		801D31741FBC2D1500E4A3E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C77B755CCB7DD150DB8118C9 /* Pods-YandexMoney.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WX7EXQ2XD6;
+				INFOPLIST_FILE = YandexMoney/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AMProgrammer.YandexMoney;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		801D31751FBC2D1500E4A3E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A0EE99DDD0921F5AFDAD1E3 /* Pods-YandexMoney.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WX7EXQ2XD6;
+				INFOPLIST_FILE = YandexMoney/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AMProgrammer.YandexMoney;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		801D315C1FBC2D1500E4A3E4 /* Build configuration list for PBXProject "YandexMoney" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				801D31711FBC2D1500E4A3E4 /* Debug */,
+				801D31721FBC2D1500E4A3E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		801D31731FBC2D1500E4A3E4 /* Build configuration list for PBXNativeTarget "YandexMoney" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				801D31741FBC2D1500E4A3E4 /* Debug */,
+				801D31751FBC2D1500E4A3E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 801D31591FBC2D1500E4A3E4 /* Project object */;
+}

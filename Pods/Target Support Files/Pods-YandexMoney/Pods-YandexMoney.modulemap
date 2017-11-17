@@ -1,0 +1,6 @@
+framework module Pods_YandexMoney {
+  umbrella header "Pods-YandexMoney-umbrella.h"
+
+  export *
+  module * { export * }
+}

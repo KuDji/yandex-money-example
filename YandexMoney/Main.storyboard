@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Test View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="TestViewController" customModule="YandexPay" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="h7J-r2-qmx">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mya-So-wkH">
+                                <rect key="frame" x="172.5" y="318.5" width="30" height="30"/>
+                                <state key="normal" title="Pay">
+                                    <color key="titleColor" red="1" green="0.065431795061399733" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="doPayment:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zBM-bd-8ap"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="pay to:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yZY-9n-6Xn">
+                                <rect key="frame" x="16" y="260" width="343" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="how mach:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2uD-Ad-djV">
+                                <rect key="frame" x="16" y="289" width="343" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My Yandex Client ID" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YO8-Uq-LdP">
+                                <rect key="frame" x="16" y="231" width="343" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="YO8-Uq-LdP" secondAttribute="trailing" constant="16" id="4X8-uw-N0a"/>
+                            <constraint firstItem="yZY-9n-6Xn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="8fD-S7-KAt"/>
+                            <constraint firstItem="YO8-Uq-LdP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="8w1-au-gnS"/>
+                            <constraint firstItem="Mya-So-wkH" firstAttribute="top" secondItem="2uD-Ad-djV" secondAttribute="bottom" constant="8.5" id="FcR-to-Tr9"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="2uD-Ad-djV" secondAttribute="trailing" constant="16" id="JC7-eC-eQj"/>
+                            <constraint firstItem="Mya-So-wkH" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Ohk-r7-JF3"/>
+                            <constraint firstItem="yZY-9n-6Xn" firstAttribute="top" secondItem="YO8-Uq-LdP" secondAttribute="bottom" constant="8" id="jPn-Mt-gkH"/>
+                            <constraint firstItem="Mya-So-wkH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="n4L-UY-Ume"/>
+                            <constraint firstItem="Mya-So-wkH" firstAttribute="top" secondItem="yZY-9n-6Xn" secondAttribute="bottom" constant="37.5" id="nBH-aQ-FYF"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="yZY-9n-6Xn" secondAttribute="trailing" constant="16" id="uHG-GP-cto"/>
+                            <constraint firstItem="2uD-Ad-djV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="wu2-Xx-VSV"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="h7J-r2-qmx"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" id="dC8-DH-m3a">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="MVC-iB-ijW"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="howMach" destination="2uD-Ad-djV" id="JZn-78-gpI"/>
+                        <outlet property="myYandexClientID" destination="YO8-Uq-LdP" id="EZl-la-fHA"/>
+                        <outlet property="transferTo" destination="yZY-9n-6Xn" id="D3d-qA-MV5"/>
+                        <outlet property="webView" destination="h7J-r2-qmx" id="Yv4-Vu-lPd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="372" y="31.934032983508249"/>
+        </scene>
+    </scenes>
+</document>
